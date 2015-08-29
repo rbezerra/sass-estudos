@@ -1,0 +1,14 @@
+$primary-color: #eeccff;
+$first-value: 62.5%;
+$first-value: 24px !default;
+
+body {
+	$primary-color: #ccc;
+	background: $primary-color;
+	font-size: $first-value;
+}
+
+p {
+	color: $primary-color;
+}
+

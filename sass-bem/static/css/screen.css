@@ -1,0 +1,63 @@
+html {
+  font-size: 15px; }
+
+body {
+  font-size: 1em;
+  line-height: 1.33333;
+  font-family: "Helvetica Neue", Helvetica, Aria, sans-serif;
+  margin-bottom: 1em; }
+
+h1 {
+  font-size: 2.4em;
+  line-height: 1.11111;
+  font-family: "Helvetica Neue", Helvetica, Aria, sans-serif;
+  margin-bottom: 2.4em;
+  font-weight: bold;
+  color: #c10000; }
+
+h2 {
+  font-size: 2em;
+  line-height: 1.2;
+  font-family: "Helvetica Neue", Helvetica, Aria, sans-serif;
+  margin-bottom: 2em;
+  color: #990000; }
+
+h3 {
+  font-size: 1.6em;
+  line-height: 1.25;
+  font-family: "Helvetica Neue", Helvetica, Aria, sans-serif;
+  margin-bottom: 1.6em;
+  color: #333333; }
+
+p {
+  font-size: 1em;
+  line-height: 1.33333;
+  font-family: "Helvetica Neue", Helvetica, Aria, sans-serif;
+  margin-bottom: 1em;
+  color: #333333; }
+
+.list--number, .list--method {
+  counter-reset: items;
+  padding-top: 0.33333em; }
+  .list--number .list__item, .list--method .list__item {
+    margin-bottom: 0.33333em; }
+    .list--number .list__item:before, .list--method .list__item:before {
+      counter-increment: items 1;
+      content: counter(items,decimal) ".";
+      color: #cc0000;
+      margin-right: 0.33333em; }
+  .list--number .list__item--end, .list--method .list__item--end {
+    margin-bottom: 0; }
+
+.list--method .list__item {
+  margin-bottom: 1em; }
+  .list--method .list__item:before {
+    font-size: 2em;
+    line-height: 1.2;
+    font-family: "Helvetica Neue", Helvetica, Aria, sans-serif;
+    margin-bottom: 2em;
+    font-style: italic; }
+.list--method .list__item--end {
+  margin-bottom: 0; }
+
+/*# sourceMappingURL=screen.css.map */
